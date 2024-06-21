@@ -1,0 +1,68 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2d4184;
+    font-family: sans-serif;
+}
+
+@font-face {
+    font-family: 'Staatliches'; /*a name to be used later*/
+    src: url('Staatliches-Regular.ttf'); /*URL to font*/
+}
+
+header {
+    background-color: #7987b7;
+    color: #772C30;
+    padding: 0.5em;
+}
+
+.title {
+    font-family: 'Staatliches';
+    font-size: 3.5rem;
+    font-weight: 800;
+    text-decoration: none;
+    color: #772C30;
+}
+
+.subtitle {
+    font-weight: bold;
+    font-size: 1.3rem;
+    font-style: italic;
+    font-variant-caps: all-petite-caps;
+}
+
+.links {
+    float: right;
+}
+
+.links a {
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #72455e;
+    font-variant-caps: all-petite-caps;
+    padding: 10px;
+}
+
+.links a:hover {
+    color: #772C30;
+    text-decoration: underline;
+}
+
+.container {
+    margin: 1vw;
+}
+
+.container article {
+    background-color: #7987b7;
+    padding: 5vw;
+    margin: 1.5vw;
+    font-size: 1.2rem;
+}
+
+.container article .article-title {
+    font-family: 'Staatliches';
+    font-size: 2rem;
+    font-weight: 400;
+}
